@@ -1,0 +1,76 @@
+{
+  "cafeName": "ACCESS COFFEE",
+  "categories": [
+    {
+      "id": "coffee",
+      "name": "コーヒー",
+      "items": [
+        {
+          "name": "エチオピア イルガチェフェ",
+          "origin": "エチオピア",
+          "description": "華やかでフローラルな香り。レモンティーのような明るい酸味が特徴です。",
+          "price": 600,
+          "temperature": ["HOT", "ICE"],
+          "brewMethod": "ハンドドリップ",
+          "grind": "中細挽き",
+          "flavor": { "acidity": 5, "bitterness": 2, "sweetness": 3, "body": 2, "aroma": 5 }
+        },
+        {
+          "name": "ブラジル サントス",
+          "origin": "ブラジル",
+          "description": "ナッツとチョコレートのような香ばしさ。バランスが良く飲みやすい定番です。",
+          "price": 550,
+          "temperature": ["HOT", "ICE"],
+          "brewMethod": "ハンドドリップ",
+          "grind": "中挽き",
+          "flavor": { "acidity": 2, "bitterness": 3, "sweetness": 3, "body": 4, "aroma": 3 }
+        },
+        {
+          "name": "マンデリン",
+          "origin": "インドネシア",
+          "description": "しっかりとした苦味とコク。スパイシーで深みのある味わい。",
+          "price": 620,
+          "temperature": ["HOT"],
+          "brewMethod": "ネルドリップ",
+          "grind": "中深挽き",
+          "flavor": { "acidity": 1, "bitterness": 5, "sweetness": 2, "body": 5, "aroma": 4 }
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "name": "紅茶",
+      "items": [
+        {
+          "name": "ダージリン",
+          "origin": "インド",
+          "description": "マスカットのような上品な香り。「紅茶のシャンパン」とも呼ばれます。",
+          "price": 500,
+          "temperature": ["HOT", "ICE"]
+        },
+        {
+          "name": "アールグレイ",
+          "description": "ベルガモットの爽やかな香りづけ。アイスでもおすすめです。",
+          "price": 500,
+          "temperature": ["HOT", "ICE"]
+        }
+      ]
+    },
+    {
+      "id": "sweets",
+      "name": "お菓子",
+      "items": [
+        {
+          "name": "ガトーショコラ",
+          "description": "濃厚なチョコレートの焼き菓子。コーヒーとの相性抜群です。",
+          "price": 480
+        },
+        {
+          "name": "チーズケーキ",
+          "description": "なめらかなベイクドチーズケーキ。紅茶にもよく合います。",
+          "price": 450
+        }
+      ]
+    }
+  ]
+}
