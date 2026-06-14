@@ -39,11 +39,12 @@
 | --- | :---: | --- |
 | `name` | ◯ | 商品名 |
 | `description` | ◯ | 説明文 |
-| `price` |  | 価格（円・数値）。省略すると価格を表示しません |
 | `origin` |  | 産地（主にコーヒー） |
 | `temperature` |  | `["HOT", "ICE"]` のうち該当するもの。HOT/ICE バッジを表示 |
-| `brewMethod` |  | 淹れ方（例: ハンドドリップ） |
+| `brewMethod` |  | 淹れ方（例: ドリップ） |
+| `roast` |  | 焙煎度（例: ミディアムロースト） |
 | `grind` |  | 挽き方（例: 中細挽き） |
+| `link` |  | 商品の参考リンク（URL）。商品名がリンクになります |
 | `image` |  | 写真。`public/images/` に画像を置き、`images/ファイル名` と書く |
 | `flavor` |  | 味覚チャート。`acidity`(酸味) `bitterness`(苦味) `sweetness`(甘味) `body`(コク) `aroma`(香り) を **1〜5** で指定 |
 

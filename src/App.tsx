@@ -8,8 +8,16 @@ const menu = menuData as Menu
 function App() {
   return (
     <div className="app">
-      <header className="site-header">
-        <h1 className="site-header__title">{menu.cafeName}</h1>
+      {/* スクロールに追従する左サイドバー（ロゴ＋ナビ）。
+          スマホでは上部の横バーに切り替わる（CSSのメディアクエリ） */}
+      <aside className="sidebar">
+        <h1 className="sidebar__title">
+          <img
+            className="site-logo"
+            src="images/a-ted-cafe-logo.png"
+            alt={menu.cafeName}
+          />
+        </h1>
         <nav className="site-nav">
           {menu.categories.map((c) => (
             <a key={c.id} href={`#${c.id}`} className="site-nav__link">
@@ -17,17 +25,19 @@ function App() {
             </a>
           ))}
         </nav>
-      </header>
+      </aside>
 
-      <main className="site-main">
-        {menu.categories.map((category) => (
-          <MenuSection key={category.id} category={category} />
-        ))}
-      </main>
+      <div className="content">
+        <main className="site-main">
+          {menu.categories.map((category) => (
+            <MenuSection key={category.id} category={category} />
+          ))}
+        </main>
 
-      <footer className="site-footer">
-        <p>{menu.cafeName}</p>
-      </footer>
+        <footer className="site-footer">
+          <p>{menu.cafeName}</p>
+        </footer>
+      </div>
     </div>
   )
 }

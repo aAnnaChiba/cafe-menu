@@ -1,74 +1,114 @@
 {
-  "cafeName": "ACCESS COFFEE",
+  "cafeName": "A-TED café MENU",
   "categories": [
     {
       "id": "coffee",
-      "name": "コーヒー",
+      "name": "Coffee",
       "items": [
         {
-          "name": "エチオピア イルガチェフェ",
-          "origin": "エチオピア",
-          "description": "華やかでフローラルな香り。レモンティーのような明るい酸味が特徴です。",
-          "price": 600,
-          "temperature": ["HOT", "ICE"],
-          "brewMethod": "ハンドドリップ",
-          "grind": "中細挽き",
-          "flavor": { "acidity": 5, "bitterness": 2, "sweetness": 3, "body": 2, "aroma": 5 }
+          "name": "タイ メイチェディマイ ウォッシュド",
+          "link": "https://www.tonya.co.jp/shop/g/g20474/?srsltid=AfmBOorxVzoV7nS_2iwHeQw3QbVYIhtN87FnxU_F8R1L-p2FzTfwPUJ-",
+          "image": "images/thai-meichedimai-washed.jpg",
+          "temperature": [
+            "HOT"
+          ],
+          "origin": "🇹🇭 タイ",
+          "brewMethod": "ドリップ",
+          "roast": "ハイロースト",
+          "description": "バニラやローストナッツ、ほのかに感じる柑橘の香り。チョコレートやハーブを連想するやさしい甘さとスパイシーな後味が特徴の味わい。",
+          "flavor": {
+            "acidity": 3,
+            "bitterness": 3.5,
+            "sweetness": 3.5,
+            "body": 3,
+            "aroma": 3
+          }
         },
         {
-          "name": "ブラジル サントス",
-          "origin": "ブラジル",
-          "description": "ナッツとチョコレートのような香ばしさ。バランスが良く飲みやすい定番です。",
-          "price": 550,
-          "temperature": ["HOT", "ICE"],
-          "brewMethod": "ハンドドリップ",
-          "grind": "中挽き",
-          "flavor": { "acidity": 2, "bitterness": 3, "sweetness": 3, "body": 4, "aroma": 3 }
+          "name": "インド クメールゴデ農園 ガネーシャ ナチュラル",
+          "link": "https://www.tonya.co.jp/shop/g/g20516/?srsltid=AfmBOooa1xKDuUQIyMmB9cTKWUbIPSD006qjI8-FfRa0QqEzUB0kLZot",
+          "image": "images/india-ganesha-natural.jpg",
+          "temperature": [
+            "HOT"
+          ],
+          "origin": "🇮🇳 インド",
+          "brewMethod": "フレンチプレス",
+          "roast": "ミディアムロースト",
+          "description": "アプリコットやカモミール、甘さも感じる複雑な香り。キャラメルやドライフルーツを想わせる甘さに赤ワインを連想するコク、スパイシーな余韻を感じる味わい。",
+          "flavor": {
+            "acidity": 4.5,
+            "bitterness": 3,
+            "sweetness": 3.5,
+            "body": 3.5,
+            "aroma": 3.5
+          }
         },
         {
-          "name": "マンデリン",
-          "origin": "インドネシア",
-          "description": "しっかりとした苦味とコク。スパイシーで深みのある味わい。",
-          "price": 620,
-          "temperature": ["HOT"],
-          "brewMethod": "ネルドリップ",
-          "grind": "中深挽き",
-          "flavor": { "acidity": 1, "bitterness": 5, "sweetness": 2, "body": 5, "aroma": 4 }
+          "name": "ケニア マサイ",
+          "link": "https://www.tonya.co.jp/shop/g/g561/?srsltid=AfmBOoqaV6l-fp8-ErkZFX2nJhJTDrVIXrIddGiOwEMoZww8kCE2FZtd",
+          "image": "images/kenia-masai.jpg",
+          "temperature": [
+            "HOT"
+          ],
+          "origin": "🇰🇪 ケニア",
+          "brewMethod": "ドリップ",
+          "roast": "ミディアムロースト",
+          "description": "ケニア本来の豊かな風味と、上品で綺麗な酸味を存分に楽しめるすっきりとした味わい。",
+          "flavor": {
+            "acidity": 3,
+            "bitterness": 3,
+            "sweetness": 4,
+            "body": 3,
+            "aroma": 4
+          }
         }
       ]
     },
     {
       "id": "tea",
-      "name": "紅茶",
+      "name": "Tea",
       "items": [
         {
-          "name": "ダージリン",
-          "origin": "インド",
-          "description": "マスカットのような上品な香り。「紅茶のシャンパン」とも呼ばれます。",
-          "price": 500,
-          "temperature": ["HOT", "ICE"]
+          "name": "マハガストット",
+          "link": "https://www.lupicia.com/shop/g/g13332414/",
+          "image": "images/mahagastotte.jpg",
+          "temperature": [
+            "HOT"
+          ],
+          "description": "グリーンな香気と爽やかなキレ、心地よい渋みが特徴の旬のヌワラエリヤ紅茶。"
         },
         {
-          "name": "アールグレイ",
-          "description": "ベルガモットの爽やかな香りづけ。アイスでもおすすめです。",
-          "price": 500,
-          "temperature": ["HOT", "ICE"]
+          "name": "あんず麦茶",
+          "link": "https://www.lupicia.com/shop/g/g13339403/",
+          "image": "images/anzumugitya.jpg",
+          "temperature": [
+            "ICE"
+          ],
+          "description": "香ばしく焙煎した国産の六条大麦を、甘く上品なあんずの香りで包みこみました。"
         }
       ]
     },
     {
       "id": "sweets",
-      "name": "お菓子",
+      "name": "Sweets",
       "items": [
         {
-          "name": "ガトーショコラ",
-          "description": "濃厚なチョコレートの焼き菓子。コーヒーとの相性抜群です。",
-          "price": 480
+          "name": "クラキット 湘南ゴールドクリーム",
+          "link": "https://www.takaraseika.co.jp/products/%E3%82%AF%E3%83%A9%E3%82%AD%E3%83%83%E3%83%88%E7%B7%B4%E4%B9%B3%E3%83%9F%E3%83%AB%E3%82%AF%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%A0-2-2/",
+          "image": "images/kurakitto.jpg",
+          "description": "香ばしい小麦全粒粉を配合した軽い食感のビスケットに、さわやかな湘南ゴールドクリームがサンドされています。"
         },
         {
-          "name": "チーズケーキ",
-          "description": "なめらかなベイクドチーズケーキ。紅茶にもよく合います。",
-          "price": 450
+          "name": "ラ・ポシェ・ゴシュ タルトレット ラズベリー",
+          "link": "https://www.kaldi.co.jp/ec/pro/disp/1/4580781731875",
+          "image": "images/taruto-raspberry.jpg",
+          "description": "香ばしく焼き上げたタルト生地にラズベリージャムがのったクッキー。"
+        },
+        {
+          "name": "ラ・ポシェ・ゴシュ タルトレット アプリコット",
+          "link": "https://www.kaldi.co.jp/ec/pro/disp/1/4580781733428",
+          "image": "images/taruto-apricot.jpg",
+          "description": "香ばしく焼き上げたタルト生地にアプリコットジャムがのったクッキー。"
         }
       ]
     }

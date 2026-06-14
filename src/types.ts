@@ -31,10 +31,14 @@ export interface MenuItem {
   origin?: string
   /** 提供温度。例: ["HOT", "ICE"]。任意 */
   temperature?: Temperature[]
-  /** 淹れ方。例: "ハンドドリップ"。任意 */
+  /** 淹れ方。例: "ドリップ"。任意 */
   brewMethod?: string
   /** 挽き方。例: "中細挽き"。任意 */
   grind?: string
+  /** 焙煎度。例: "ミディアムロースト"。任意（主にコーヒー） */
+  roast?: string
+  /** 商品の参考リンク（URL）。任意 */
+  link?: string
   /** 写真パス。public/ からの相対パス。例: "images/foo.jpg"。任意 */
   image?: string
   /** 味覚チャート。任意（主にコーヒー） */

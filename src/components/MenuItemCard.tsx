@@ -1,14 +1,19 @@
 import type { MenuItem } from '../types'
 import FlavorChart from './FlavorChart'
+import BrewIcon from './BrewIcon'
+import RoastLevel from './RoastLevel'
 
 interface Props {
   item: MenuItem
 }
 
-// 1つのメニューを表すカード。
-// 任意項目（産地・温度・淹れ方・写真・味覚チャートなど）は、
-// menu.json に値があるときだけ表示します。
+// 1つのメニューを表すカード（タグ強調デザイン）。
+// 産地・焙煎度・淹れ方・挽き方・HOT/ICE を色付きタグで並べ、
+// 区切り線をはさんで説明文・味覚チャートを表示します。
+// 任意項目は menu.json に値があるときだけ表示されます。
 function MenuItemCard({ item }: Props) {
+  const hasTags = item.origin || item.brewMethod || item.grind
+
   return (
     <article className="menu-card">
       {item.image && (
@@ -16,48 +21,48 @@ function MenuItemCard({ item }: Props) {
       )}
 
       <div className="menu-card__body">
+        <div className="menu-card__main">
         <div className="menu-card__head">
-          <h3 className="menu-card__name">{item.name}</h3>
+          <h3 className="menu-card__name">
+            {item.link ? (
+              <a href={item.link} target="_blank" rel="noreferrer">
+                {item.name}
+              </a>
+            ) : (
+              item.name
+            )}
+            {item.temperature?.map((t) => (
+              <span key={t} className={`tag tag--temp tag--temp-${t.toLowerCase()}`}>
+                {t}
+              </span>
+            ))}
+          </h3>
           {typeof item.price === 'number' && (
             <span className="menu-card__price">¥{item.price.toLocaleString()}</span>
           )}
         </div>
 
-        {item.origin && (
-          <p className="menu-card__origin">産地：{item.origin}</p>
-        )}
-
-        <p className="menu-card__desc">{item.description}</p>
-
-        {item.temperature && item.temperature.length > 0 && (
-          <div className="menu-card__temps">
-            {item.temperature.map((t) => (
-              <span
-                key={t}
-                className={`temp-badge temp-badge--${t.toLowerCase()}`}
-              >
-                {t}
+        {hasTags && (
+          <div className="menu-card__tags">
+            {item.origin && (
+              <span className="tag tag--origin">{item.origin}</span>
+            )}
+            {item.brewMethod && (
+              <span className="tag tag--brew">
+                <BrewIcon method={item.brewMethod} />
+                {item.brewMethod}
               </span>
-            ))}
+            )}
+            {item.grind && <span className="tag tag--brew">{item.grind}</span>}
           </div>
         )}
 
-        {(item.brewMethod || item.grind) && (
-          <dl className="menu-card__specs">
-            {item.brewMethod && (
-              <div className="spec">
-                <dt>淹れ方</dt>
-                <dd>{item.brewMethod}</dd>
-              </div>
-            )}
-            {item.grind && (
-              <div className="spec">
-                <dt>挽き方</dt>
-                <dd>{item.grind}</dd>
-              </div>
-            )}
-          </dl>
-        )}
+        {item.roast && <RoastLevel roast={item.roast} />}
+
+          <hr className="menu-card__divider" />
+
+          <p className="menu-card__desc">{item.description}</p>
+        </div>
 
         {item.flavor && (
           <div className="menu-card__flavor">
