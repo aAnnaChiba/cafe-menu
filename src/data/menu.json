@@ -9,7 +9,6 @@
           "name": "タイ メイチェディマイ ウォッシュド",
           "link": "https://www.tonya.co.jp/shop/g/g20474/?srsltid=AfmBOorxVzoV7nS_2iwHeQw3QbVYIhtN87FnxU_F8R1L-p2FzTfwPUJ-",
           "image": "images/thai-meichedimai-washed.jpg",
-          "temperature": ["HOT"],
           "origin": "🇹🇭 タイ",
           "roast": "ハイロースト",
           "description": "バニラやローストナッツ、ほのかに感じる柑橘の香り。チョコレートやハーブを連想するやさしい甘さとスパイシーな後味が特徴の味わい。",
@@ -17,6 +16,7 @@
             {
               "brewMethod": "ドリップ",
               "grind": "中細挽き",
+              "temperature": ["HOT"],
               "description": "クリアな口当たりで、柑橘の酸味とローストナッツの香ばしさが際立つ。すっきりとした後味。",
               "flavor": {
                 "acidity": 3,
@@ -29,6 +29,7 @@
             {
               "brewMethod": "フレンチプレス",
               "grind": "粗挽き",
+              "temperature": ["HOT"],
               "description": "オイル分をそのまま抽出し、チョコレートのような甘さとまろやかなコクが増した濃厚な味わい。",
               "flavor": {
                 "acidity": 2.5,

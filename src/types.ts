@@ -34,6 +34,8 @@ export interface Brew {
   flavor: Flavor
   /** 挽き方。任意（淹れ方ごとに変える場合） */
   grind?: string
+  /** 提供温度。例: ["HOT", "ICE"]。任意（淹れ方ごとに変える場合） */
+  temperature?: Temperature[]
 }
 
 /** 1つのメニュー項目。基本項目以外は任意（紅茶・お菓子では省略可）。 */

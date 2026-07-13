@@ -22,6 +22,11 @@ function BrewCard({ brew }: Props) {
               {brew.brewMethod}
             </h4>
             {brew.grind && <span className="tag tag--brew">{brew.grind}</span>}
+            {brew.temperature?.map((t) => (
+              <span key={t} className={`tag tag--temp tag--temp-${t.toLowerCase()}`}>
+                {t}
+              </span>
+            ))}
           </div>
 
           <hr className="menu-card__divider" />
