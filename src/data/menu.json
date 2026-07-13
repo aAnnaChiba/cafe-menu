@@ -9,58 +9,36 @@
           "name": "タイ メイチェディマイ ウォッシュド",
           "link": "https://www.tonya.co.jp/shop/g/g20474/?srsltid=AfmBOorxVzoV7nS_2iwHeQw3QbVYIhtN87FnxU_F8R1L-p2FzTfwPUJ-",
           "image": "images/thai-meichedimai-washed.jpg",
-          "temperature": [
-            "HOT"
-          ],
+          "temperature": ["HOT"],
           "origin": "🇹🇭 タイ",
-          "brewMethod": "ドリップ",
           "roast": "ハイロースト",
           "description": "バニラやローストナッツ、ほのかに感じる柑橘の香り。チョコレートやハーブを連想するやさしい甘さとスパイシーな後味が特徴の味わい。",
-          "flavor": {
-            "acidity": 3,
-            "bitterness": 3.5,
-            "sweetness": 3.5,
-            "body": 3,
-            "aroma": 3
-          }
-        },
-        {
-          "name": "インド クメールゴデ農園 ガネーシャ ナチュラル",
-          "link": "https://www.tonya.co.jp/shop/g/g20516/?srsltid=AfmBOooa1xKDuUQIyMmB9cTKWUbIPSD006qjI8-FfRa0QqEzUB0kLZot",
-          "image": "images/india-ganesha-natural.jpg",
-          "temperature": [
-            "HOT"
-          ],
-          "origin": "🇮🇳 インド",
-          "brewMethod": "フレンチプレス",
-          "roast": "ミディアムロースト",
-          "description": "アプリコットやカモミール、甘さも感じる複雑な香り。キャラメルやドライフルーツを想わせる甘さに赤ワインを連想するコク、スパイシーな余韻を感じる味わい。",
-          "flavor": {
-            "acidity": 4.5,
-            "bitterness": 3,
-            "sweetness": 3.5,
-            "body": 3.5,
-            "aroma": 3.5
-          }
-        },
-        {
-          "name": "ケニア マサイ",
-          "link": "https://www.tonya.co.jp/shop/g/g561/?srsltid=AfmBOoqaV6l-fp8-ErkZFX2nJhJTDrVIXrIddGiOwEMoZww8kCE2FZtd",
-          "image": "images/kenia-masai.jpg",
-          "temperature": [
-            "HOT"
-          ],
-          "origin": "🇰🇪 ケニア",
-          "brewMethod": "ドリップ",
-          "roast": "ミディアムロースト",
-          "description": "ケニア本来の豊かな風味と、上品で綺麗な酸味を存分に楽しめるすっきりとした味わい。",
-          "flavor": {
-            "acidity": 3,
-            "bitterness": 3,
-            "sweetness": 4,
-            "body": 3,
-            "aroma": 4
-          }
+          "brews": [
+            {
+              "brewMethod": "ドリップ",
+              "grind": "中細挽き",
+              "description": "クリアな口当たりで、柑橘の酸味とローストナッツの香ばしさが際立つ。すっきりとした後味。",
+              "flavor": {
+                "acidity": 3,
+                "bitterness": 3.5,
+                "sweetness": 3.5,
+                "body": 3,
+                "aroma": 3
+              }
+            },
+            {
+              "brewMethod": "フレンチプレス",
+              "grind": "粗挽き",
+              "description": "オイル分をそのまま抽出し、チョコレートのような甘さとまろやかなコクが増した濃厚な味わい。",
+              "flavor": {
+                "acidity": 2.5,
+                "bitterness": 3,
+                "sweetness": 4,
+                "body": 4,
+                "aroma": 3.5
+              }
+            }
+          ]
         }
       ]
     },
@@ -72,18 +50,14 @@
           "name": "マハガストット",
           "link": "https://www.lupicia.com/shop/g/g13332414/",
           "image": "images/mahagastotte.jpg",
-          "temperature": [
-            "HOT"
-          ],
+          "temperature": ["HOT"],
           "description": "グリーンな香気と爽やかなキレ、心地よい渋みが特徴の旬のヌワラエリヤ紅茶。"
         },
         {
           "name": "あんず麦茶",
           "link": "https://www.lupicia.com/shop/g/g13339403/",
           "image": "images/anzumugitya.jpg",
-          "temperature": [
-            "ICE"
-          ],
+          "temperature": ["ICE"],
           "description": "香ばしく焙煎した国産の六条大麦を、甘く上品なあんずの香りで包みこみました。"
         }
       ]

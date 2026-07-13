@@ -376,6 +376,106 @@ body {
   display: block;
 }
 
+/* ===== 豆グループ（豆見出し + 抽出法ごとのカード）===== */
+.bean-group {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(91, 70, 54, 0.06);
+  padding: 16px 18px 20px;
+}
+
+/* 豆の共通情報（画像＋名前/産地/焙煎度/温度/概要） */
+.bean-group__header {
+  display: flex;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.bean-group__image {
+  flex: 0 0 120px;
+  width: 120px;
+  height: auto;
+  align-self: center;
+  object-fit: contain;
+  display: block;
+  border-radius: 8px;
+}
+
+.bean-group__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.bean-group__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.bean-group__name {
+  font-size: 1.3rem;
+  color: var(--coffee-dark);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.bean-group__name a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.15s ease;
+}
+
+.bean-group__name a:hover {
+  text-decoration-color: var(--coffee);
+}
+
+.bean-group__info .menu-card__desc {
+  margin-top: 12px;
+}
+
+/* 抽出法カードを縦に並べる */
+.bean-group__brews {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* 抽出法カード（menu-card を流用しつつ、淹れ方タイトルを持つ）。
+   背景をページ色にして、豆グループ内のカードとして一段沈ませる。 */
+.brew-card {
+  background: var(--bg);
+}
+
+.brew-card__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.brew-card__title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 1.05rem;
+  color: var(--coffee-dark);
+  margin: 0;
+}
+
+.brew-card__title svg {
+  display: block;
+}
+
 /* ===== フッター ===== */
 .site-footer {
   text-align: center;
