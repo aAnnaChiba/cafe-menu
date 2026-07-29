@@ -19,6 +19,25 @@ export interface Flavor {
 /** 提供温度。 */
 export type Temperature = 'HOT' | 'ICE'
 
+/**
+ * 淹れ方（抽出法）ごとの味わい。
+ * 1つの豆を複数の淹れ方で提供し、淹れ方ごとに
+ * 説明・味覚チャート（と挽き方）を変えたい場合に使います。
+ * 画像・産地・焙煎度・提供温度は豆（MenuItem）で共通です。
+ */
+export interface Brew {
+  /** 淹れ方（カードのタイトル）。例: "ドリップ" / "フレンチプレス" */
+  brewMethod: string
+  /** この淹れ方での説明（テイスティングノート） */
+  description: string
+  /** この淹れ方での味覚チャート */
+  flavor: Flavor
+  /** 挽き方。任意（淹れ方ごとに変える場合） */
+  grind?: string
+  /** 提供温度。例: ["HOT", "ICE"]。任意（淹れ方ごとに変える場合） */
+  temperature?: Temperature[]
+}
+
 /** 1つのメニュー項目。基本項目以外は任意（紅茶・お菓子では省略可）。 */
 export interface MenuItem {
   /** 商品名（必須） */
@@ -41,8 +60,15 @@ export interface MenuItem {
   link?: string
   /** 写真パス。public/ からの相対パス。例: "images/foo.jpg"。任意 */
   image?: string
-  /** 味覚チャート。任意（主にコーヒー） */
+  /** 味覚チャート。任意（主にコーヒー）。brews を使う場合は不要 */
   flavor?: Flavor
+  /**
+   * 淹れ方ごとの味わい一覧。任意。
+   * この配列があると、豆名を見出しにして抽出法ごとの menu-card を
+   * 縦に並べて表示します（MenuSection が自動判定）。
+   * ない場合は従来の豆カードを1枚表示します。
+   */
+  brews?: Brew[]
 }
 
 /** メニューのカテゴリ（コーヒー・紅茶・お菓子など）。 */
