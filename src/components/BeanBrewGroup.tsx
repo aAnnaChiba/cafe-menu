@@ -1,9 +1,9 @@
-import type { MenuItem } from '../types'
-import BrewCard from './BrewCard'
-import RoastLevel from './RoastLevel'
+import type { MenuItem } from "../types";
+import BrewCard from "./BrewCard";
+import RoastLevel from "./RoastLevel";
 
 interface Props {
-  item: MenuItem
+  item: MenuItem;
 }
 
 // 【豆グループ】1つの豆（品種）に複数の抽出法（item.brews）がある場合の表示。
@@ -29,13 +29,18 @@ function BeanBrewGroup({ item }: Props) {
                 item.name
               )}
               {item.temperature?.map((t) => (
-                <span key={t} className={`tag tag--temp tag--temp-${t.toLowerCase()}`}>
+                <span
+                  key={t}
+                  className={`tag tag--temp tag--temp-${t.toLowerCase()}`}
+                >
                   {t}
                 </span>
               ))}
             </h3>
-            {typeof item.price === 'number' && (
-              <span className="menu-card__price">¥{item.price.toLocaleString()}</span>
+            {typeof item.price === "number" && (
+              <span className="menu-card__price">
+                ¥{item.price.toLocaleString()}
+              </span>
             )}
           </div>
 
@@ -52,12 +57,12 @@ function BeanBrewGroup({ item }: Props) {
       </div>
 
       <div className="bean-group__brews">
-        {item.brews!.map((brew) => (
+        {item.brews?.map((brew) => (
           <BrewCard key={brew.brewMethod} brew={brew} />
         ))}
       </div>
     </div>
-  )
+  );
 }
 
-export default BeanBrewGroup
+export default BeanBrewGroup;
