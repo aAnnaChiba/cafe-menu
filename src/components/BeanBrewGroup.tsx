@@ -58,7 +58,7 @@ function BeanBrewGroup({ item }: Props) {
 
       <div className="bean-group__brews">
         {item.brews?.map((brew) => (
-          <BrewCard key={brew.brewMethod} brew={brew} />
+          <BrewCard key={`${brew.brewMethod}-${brew.temperature}`} brew={brew} />
         ))}
       </div>
     </div>
