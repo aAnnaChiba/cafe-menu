@@ -6,66 +6,58 @@
       "name": "Coffee",
       "items": [
         {
-          "name": "インド モンスーン",
-          "link": "https://www.tonya.co.jp/shop/g/g29/?srsltid=AfmBOorjcgoKfBT0Sa6rCNCdv37rBCRzdNls-mW9CmTE3CR6FfYUp_8z",
-          "image": "images/india-monsoon.jpg",
-          "origin": "🇮🇳 インド",
-          "roast": "ハイロースト",
-          "description": "季節風（モンスーン）に晒して熟成された、酸味が少なく独特のスパイシーな香味とまろやかなコクを持つ芳醇なコーヒー。",
-          "brews": [
-            {
-              "brewMethod": "ドリップ",
-              "grind": "中細挽き",
-              "temperature": ["HOT"],
-              "description": "モンスーンらしさをストレートに伝える基準となる味。酸味を下げ、コクと甘みを強調。",
-              "flavor": {
-                "acidity": 1.0,
-                "bitterness": 3.0,
-                "sweetness": 3.5,
-                "body": 3.5,
-                "aroma": 3.5
-              }
-            },
-            {
-              "brewMethod": "浸漬式ドリップ",
-              "grind": "中細挽き",
-              "temperature": ["HOT"],
-              "description": "お湯に漬け込むことで、特有の甘みと香りがより丸みを帯びてリッチに出ることを表現。",
-              "flavor": {
-                "acidity": 1.0,
-                "bitterness": 3.0,
-                "sweetness": 4.0,
-                "body": 4.0,
-                "aroma": 3.5
-              }
-            },
-            {
-              "brewMethod": "フレンチプレス",
-              "grind": "粗挽き",
-              "temperature": ["HOT"],
-              "description": "オイル分による濃厚なコクと、モンスーンの土っぽさ・スパイス感がダイレクトに伝わる味わい。",
-              "flavor": {
-                "acidity": 1.0,
-                "bitterness": 3.0,
-                "sweetness": 4.0,
-                "body": 4.5,
-                "aroma": 4.0
-              }
-            },
-            {
-              "brewMethod": "水出し",
-              "grind": "中細挽き",
-              "temperature": ["ICE"],
-              "description": "水出しにすることでさらに酸味がなくなり、シロップのような甘みが際立つことを表現。",
-              "flavor": {
-                "acidity": 0.5,
-                "bitterness": 2.5,
-                "sweetness": 4.0,
-                "body": 3.5,
-                "aroma": 3.5
-              }
-            }
-          ]
+          "name": "カフェインレスコーヒー ブラジル",
+          "link": "https://www.tonya.co.jp/shop/g/g704/",
+          "image": "images/decaf-brazil.jpg",
+          "origin": "🇧🇷 ブラジル",
+          "roast": "シティロースト",
+          "brewMethod": "ドリップ",
+          "grind": "中細挽き",
+          "temperature": ["HOT"],
+          "description": "ブラジルの適度な苦みとソフトな飲み口をそのままに、カフェインを99.9%除去したヘルシーコーヒー。",
+          "flavor": {
+            "acidity": 1.5,
+            "bitterness": 3.5,
+            "sweetness": 3.0,
+            "body": 3.5,
+            "aroma": 3.0
+          }
+        },
+        {
+          "name": "コスタリカ ジャガー ハニー",
+          "link": "https://www.tonya.co.jp/shop/g/g20173/",
+          "image": "images/costa-rica-jaguar.jpg",
+          "origin": "🇨🇷 コスタリカ",
+          "roast": "シティロースト",
+          "brewMethod": "水出し",
+          "grind": "中細挽き",
+          "temperature": ["ICE"],
+          "description": "フローラルの甘さに香ばしいアーモンドの香り。ジューシーな飲みくちにアプリコットやライムの酸味、はちみつの甘さとダークチョコのようなコク。",
+          "flavor": {
+            "acidity": 3.0,
+            "bitterness": 3.0,
+            "sweetness": 4.5,
+            "body": 3.5,
+            "aroma": 4.0
+          }
+        },
+        {
+          "name": "エチオピア グジ G1 チルフィート ウォッシュド",
+          "link": "https://www.tonya.co.jp/shop/g/g20549/",
+          "image": "images/ethiopia-guji.jpg",
+          "origin": "🇪🇹 エチオピア",
+          "roast": "シティロースト",
+          "brewMethod": "水出し",
+          "grind": "中細挽き",
+          "temperature": ["ICE"],
+          "description": "フローラルで華やかな香りにフルーティーな口当たり。ハチミツやキャラメルの上品な甘さと、ブラックティーやカカオニブを連想するコクの余韻。",
+          "flavor": {
+            "acidity": 3.5,
+            "bitterness": 2.5,
+            "sweetness": 4.5,
+            "body": 3.0,
+            "aroma": 4.0
+          }
         }
       ]
     },
@@ -79,13 +71,6 @@
           "image": "images/mahagastotte.jpg",
           "temperature": ["HOT"],
           "description": "グリーンな香気と爽やかなキレ、心地よい渋みが特徴の旬のヌワラエリヤ紅茶。"
-        },
-        {
-          "name": "あんず麦茶",
-          "link": "https://www.lupicia.com/shop/g/g13339403/",
-          "image": "images/anzumugitya.jpg",
-          "temperature": ["ICE"],
-          "description": "香ばしく焙煎した国産の六条大麦を、甘く上品なあんずの香りで包みこみました。"
         }
       ]
     },
@@ -94,16 +79,19 @@
       "name": "Sweets",
       "items": [
         {
-          "name": "横濱チーズサンド",
-          "link": "https://www.takaraseika.co.jp/products/%E6%A8%AA%E6%BF%B1%E3%83%81%E3%83%BC%E3%82%BA%E3%82%B5%E3%83%B3%E3%83%89/",
-          "image": "images/cheese-sand.jpg",
-          "description": "豊かなチーズ風味とさっくり食感。今も変わらぬ昔ながらの美味しさ。"
+          "name": "ミニルマンド 和栗モンブラン",
+          "image": "images/mini-rummand-montblanc.jpg",
+          "description": "サクサクのクレープ生地に和栗モンブラン風味のクリームを包んだひとくちサイズのルマンド。"
         },
         {
-          "name": "珈琲館キャラメル",
-          "link": "https://www.miyataseika.co.jp/product/caramel/",
-          "image": "images/caramel.png",
-          "description": "ブラジル産コーヒー粉末を練り込んだほろ苦さがちょうど良いキャラメル。"
+          "name": "エリーゼ 和栗モンブラン",
+          "image": "images/elise-montblanc.jpg",
+          "description": "軽やかなウエハースに和栗モンブラン味のクリームを詰めた上品な味わいのエリーゼ。"
+        },
+        {
+          "name": "チーズアーモンド",
+          "image": "images/cheese-almond.png",
+          "description": "濃厚なチーズ風味と香ばしいアーモンドが絶妙にマッチした、サクサク食感のおつまみスナック。"
         }
       ]
     }
