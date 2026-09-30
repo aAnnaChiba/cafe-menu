@@ -6,57 +6,43 @@
       "name": "Coffee",
       "items": [
         {
-          "name": "カフェインレスコーヒー ブラジル",
-          "link": "https://www.tonya.co.jp/shop/g/g704/",
-          "image": "images/decaf-brazil.jpg",
-          "origin": "🇧🇷 ブラジル",
-          "roast": "シティロースト",
+          "name": "グアテマラ オリエンテ ナチュラル",
+          "link": "https://marucacoffee.thebase.in/items/63339739",
+          "image": "images/guatemala-oriente-natural.jpg",
+          "origin": "🇬🇹 グアテマラ",
+          "roast": "中深煎り",
           "brewMethod": "ドリップ",
           "grind": "中細挽き",
-          "temperature": ["HOT"],
-          "description": "ブラジルの適度な苦みとソフトな飲み口をそのままに、カフェインを99.9%除去したヘルシーコーヒー。",
+          "temperature": [
+            "HOT"
+          ],
+          "description": "ブルーベリーやメロンのような果実の甘さが広がる。完熟果実のみで仕上げた贅沢なナチュラル製法のコーヒー。",
           "flavor": {
-            "acidity": 1.5,
-            "bitterness": 3.5,
-            "sweetness": 3.0,
+            "acidity": 2.5,
+            "bitterness": 2.0,
+            "sweetness": 4.5,
             "body": 3.5,
-            "aroma": 3.0
+            "aroma": 4.5
           }
         },
         {
-          "name": "コスタリカ ジャガー ハニー",
-          "link": "https://www.tonya.co.jp/shop/g/g20173/",
-          "image": "images/costa-rica-jaguar.jpg",
-          "origin": "🇨🇷 コスタリカ",
-          "roast": "シティロースト",
-          "brewMethod": "水出し",
+          "name": "ニカラグア サンタアナ農園",
+          "link": "https://marucacoffee.thebase.in/items/39265767",
+          "image": "images/nicaragua-santa-ana.jpg",
+          "origin": "🇳🇮 ニカラグア",
+          "roast": "中深煎り",
+          "brewMethod": "ドリップ",
           "grind": "中細挽き",
-          "temperature": ["ICE"],
-          "description": "フローラルの甘さに香ばしいアーモンドの香り。ジューシーな飲みくちにアプリコットやライムの酸味、はちみつの甘さとダークチョコのようなコク。",
+          "temperature": [
+            "HOT"
+          ],
+          "description": "黒糖のような甘みとコクのバランスがよく、ナッツの風味も感じられる。口あたりはやわらかで飽きのこない味わい。",
           "flavor": {
-            "acidity": 3.0,
+            "acidity": 2.5,
             "bitterness": 3.0,
-            "sweetness": 4.5,
+            "sweetness": 4.0,
             "body": 3.5,
-            "aroma": 4.0
-          }
-        },
-        {
-          "name": "エチオピア グジ G1 チルフィート ウォッシュド",
-          "link": "https://www.tonya.co.jp/shop/g/g20549/",
-          "image": "images/ethiopia-guji.jpg",
-          "origin": "🇪🇹 エチオピア",
-          "roast": "シティロースト",
-          "brewMethod": "水出し",
-          "grind": "中細挽き",
-          "temperature": ["ICE"],
-          "description": "フローラルで華やかな香りにフルーティーな口当たり。ハチミツやキャラメルの上品な甘さと、ブラックティーやカカオニブを連想するコクの余韻。",
-          "flavor": {
-            "acidity": 3.5,
-            "bitterness": 2.5,
-            "sweetness": 4.5,
-            "body": 3.0,
-            "aroma": 4.0
+            "aroma": 3.5
           }
         }
       ]
@@ -66,11 +52,20 @@
       "name": "Tea",
       "items": [
         {
-          "name": "マハガストット",
-          "link": "https://www.lupicia.com/shop/g/g13332414/",
-          "image": "images/mahagastotte.jpg",
-          "temperature": ["HOT"],
-          "description": "グリーンな香気と爽やかなキレ、心地よい渋みが特徴の旬のヌワラエリヤ紅茶。"
+          "name": "阿里山高山烏龍茶",
+          "temperature": [
+            "HOT"
+          ],
+          "description": "台湾・阿里山の高地で育った高山烏龍茶。花のような甘い香りと、まろやかでやさしい口当たり。"
+        },
+        {
+          "name": "琉球トロピカル",
+          "link": "https://www.lupicia.com/shop/g/g13105624/",
+          "image": "images/ryukyu-tropical.jpg",
+          "temperature": [
+            "ICE"
+          ],
+          "description": "沖縄をイメージした、パイナップルやマンゴーが華やかに香るトロピカルフルーツの紅茶。ジューシーな甘酸っぱさを、まろやかなお茶の甘みが引き立てる。"
         }
       ]
     },
@@ -79,19 +74,21 @@
       "name": "Sweets",
       "items": [
         {
-          "name": "ミニルマンド 和栗モンブラン",
-          "image": "images/mini-rummand-montblanc.jpg",
-          "description": "サクサクのクレープ生地に和栗モンブラン風味のクリームを包んだひとくちサイズのルマンド。"
+          "name": "フルタ生チョコレート",
+          "description": "生クリームを使ったクリームをまろやかなミルクチョコレートで包んだ、口どけなめらかなひとくちチョコ。"
         },
         {
-          "name": "エリーゼ 和栗モンブラン",
-          "image": "images/elise-montblanc.jpg",
-          "description": "軽やかなウエハースに和栗モンブラン味のクリームを詰めた上品な味わいのエリーゼ。"
+          "name": "マカダミアチョコレート",
+          "description": "香ばしいマカダミアナッツをミルクチョコレートで包んだ、カリッとした食感とコクのあるチョコレート。"
         },
         {
           "name": "チーズアーモンド",
           "image": "images/cheese-almond.png",
           "description": "濃厚なチーズ風味と香ばしいアーモンドが絶妙にマッチした、サクサク食感のおつまみスナック。"
+        },
+        {
+          "name": "パンケーキアソート",
+          "description": "しっとりしたひとくちサイズのパンケーキ生地にクリームをサンド。チョコ・メープル・カスタード・はちみつの4種の味。"
         }
       ]
     }
