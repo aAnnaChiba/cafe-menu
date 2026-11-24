@@ -6,43 +6,39 @@
       "name": "Coffee",
       "items": [
         {
-          "name": "グアテマラ オリエンテ ナチュラル",
-          "link": "https://marucacoffee.thebase.in/items/63339739",
-          "image": "images/guatemala-oriente-natural.jpg",
+          "name": "ブラジル ラランハル",
+          "link": "https://fuji100kka.com/products/coffeebeans-laranhal",
+          "image": "images/coffeebeans-laranhal.jpg",
           "origin": "🇬🇹 グアテマラ",
-          "roast": "中深煎り",
+          "roast": "当店推奨焙煎",
           "brewMethod": "ドリップ",
-          "grind": "中細挽き",
-          "temperature": [
-            "HOT"
-          ],
-          "description": "ブルーベリーやメロンのような果実の甘さが広がる。完熟果実のみで仕上げた贅沢なナチュラル製法のコーヒー。",
+          "grind": "中挽き",
+          "temperature": ["HOT"],
+          "description": "蜂蜜を思わせる甘みと爽やかな口当たりのハーモニー、ナッツやビターチョコのような後味",
           "flavor": {
-            "acidity": 2.5,
-            "bitterness": 2.0,
-            "sweetness": 4.5,
-            "body": 3.5,
-            "aroma": 4.5
+            "acidity": 4.0,
+            "bitterness": 3.0,
+            "sweetness": 4.0,
+            "body": 4.0,
+            "aroma": 4.0
           }
         },
         {
-          "name": "ニカラグア サンタアナ農園",
-          "link": "https://marucacoffee.thebase.in/items/39265767",
-          "image": "images/nicaragua-santa-ana.jpg",
+          "name": "ニカラグア バニラレモネード",
+          "link": "https://fuji100kka.com/products/coffeebeans-vanillalemonade",
+          "image": "images/coffeebeans-vanillalemonade.jpg",
           "origin": "🇳🇮 ニカラグア",
-          "roast": "中深煎り",
+          "roast": "当店推奨焙煎",
           "brewMethod": "ドリップ",
-          "grind": "中細挽き",
-          "temperature": [
-            "HOT"
-          ],
-          "description": "黒糖のような甘みとコクのバランスがよく、ナッツの風味も感じられる。口あたりはやわらかで飽きのこない味わい。",
+          "grind": "中挽き",
+          "temperature": ["HOT"],
+          "description": "ほのかにバニラの香り、優しいレモンの風味",
           "flavor": {
-            "acidity": 2.5,
-            "bitterness": 3.0,
-            "sweetness": 4.0,
-            "body": 3.5,
-            "aroma": 3.5
+            "acidity": 2.0,
+            "bitterness": 2.0,
+            "sweetness": 3.0,
+            "body": 2.0,
+            "aroma": 3.0
           }
         }
       ]
@@ -53,19 +49,15 @@
       "items": [
         {
           "name": "阿里山高山烏龍茶",
-          "temperature": [
-            "HOT"
-          ],
+          "temperature": ["HOT"],
           "description": "台湾・阿里山の高地で育った高山烏龍茶。花のような甘い香りと、まろやかでやさしい口当たり。"
         },
         {
-          "name": "琉球トロピカル",
-          "link": "https://www.lupicia.com/shop/g/g13105624/",
-          "image": "images/ryukyu-tropical.jpg",
-          "temperature": [
-            "ICE"
-          ],
-          "description": "沖縄をイメージした、パイナップルやマンゴーが華やかに香るトロピカルフルーツの紅茶。ジューシーな甘酸っぱさを、まろやかなお茶の甘みが引き立てる。"
+          "name": "美らかーぎー",
+          "link": "https://www.lupicia.com/shop/g/g13109222/",
+          "image": "images/churakagi.jpg",
+          "temperature": ["ICE"],
+          "description": "沖縄の方言「美人さん」をイメージし、アセロラの甘酸っぱい香りをのせたルイボス。さわやかな「沖縄美人」を甘酸っぱく紅く美しいアセロラのイメージで表現しました。"
         }
       ]
     },
@@ -74,20 +66,24 @@
       "name": "Sweets",
       "items": [
         {
-          "name": "バナナまんじゅう",
-          "description": "しっとりやわらかな生地で、白あんベースのねっとりとしたバナナクリームを包んだ、ほんのり甘いおまんじゅう。"
+          "name": "ブルボン ミルネージュ",
+          "description": "ふんわり焼きあげたケーキ生地にミルククリームをサンドし、ホワイトチョコレートで包み込みました。クリーミーなパウダーで飾った冬の季節のケーキです。"
         },
         {
-          "name": "キットカット オレンジショコラ",
-          "description": "サクサクのウエハースを、オレンジの爽やかな香りを効かせたチョコレートで包んだ、ほろ苦く華やかなキットカット。"
+          "name": "ブルボン エリーゼ北海道ミルク",
+          "description": "サクッと軽い歯ざわりのウエハースでやわらかくまろやかなミルククリームを包み込みました。"
         },
         {
-          "name": "きのこの山とたけのこの里 西尾/宇治 抹茶",
-          "description": "宇治抹茶チョコ×香ばしいクラッカーの「きのこの山」と、西尾抹茶チョコ×サクサククッキーの「たけのこの里」。2種の抹茶を食べ比べ。"
+          "name": "ブルボン ホワイトロリータ",
+          "description": "サックリとしたスティック状のクッキーを甘みをおさえたホワイトクリームで包み込みました。ミルク風味の上品な味わいをお楽しみください。"
         },
         {
-          "name": "いちごのサンダー ミニバー",
-          "description": "ザクザクのクッキーとパフにイチゴチップをたっぷり混ぜ、甘酸っぱいいちごチョコで固めたひとくちバー。"
+          "name": "明治 チョコレート効果カカオ72%",
+          "description": "カカオ分72%の本格的なビターチョコレートです。カカオの華やかな香りとコク、そして上質な苦みが特徴です。"
+        },
+        {
+          "name": "明治 チョコレート効果カカオ86%",
+          "description": "カカオ分86%の本格ビターチョコレートです。カカオの力強い香りとコクのある苦みが特徴です。"
         }
       ]
     }
